@@ -1,4 +1,4 @@
-import { Api, RYes, RNo } from '../../../main.js';
+import { Api, RYes, RNo } from 'befly';
 
 export default Api.POST(
     //

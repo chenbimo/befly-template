@@ -11,7 +11,10 @@
     "scripts": {
         "dev": "bun run main.js",
         "server": "bunx --bun pm2 start pm2.config.cjs -a",
-        "syncDb": "bun run syncDb.js"
+        "syncDb": "bun run syncDb.js",
+        "ra": "bun run release.js -a",
+        "rb": "bun run release.js -b",
+        "rc": "bun run release.js -c"
     },
     "type": "module",
     "dependencies": {
